@@ -1,0 +1,72 @@
+/*
+Theme Name: Alpha
+Theme URI: https://sourav.im
+Author: Abm Sourav
+Author URI: https://sourav.im
+Description: Learning purpuse.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpha
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header.
+*/
+
+body {
+    color: #000;
+    line-height: 1.4;
+}
+
+a {
+    color: #04323a;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #05788a;
+    text-decoration: none !important;
+}
+
+ul#menucontainer li a, ul#footer-menu-container li a {
+    color: #ffffff;
+}
+
+ul#menucontainer li a:hover, ul#footer-menu-container li a:hover {
+    color: #0a8699;
+}
+
+.card-img-top{
+    height: auto;
+}
+
+.card-body {
+    background: #fafafa69;
+}
+
+.card-footer {
+    background: #ffffff;
+}
+
+.card-header {
+    background: #ffffff;
+}
+
+.row {
+    margin-top: 75px !important;
+}
+
+.page-header {
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.fab {
+    color: #fff;
+}
+
+.wp-video {
+    margin: 0 auto;
+}
